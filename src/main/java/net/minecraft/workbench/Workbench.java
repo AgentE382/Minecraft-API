@@ -23,7 +23,7 @@ public final class Workbench {
      * <p />
      * This is a shortcut for {@link net.minecraft.workbench.WorkbenchImpl#getServer()}.
      *
-     * @return WorkbenchImpl object provided by the API implementation.
+     * @return Server object currently being run by the API implementation.
      * @see net.minecraft.workbench.WorkbenchImpl#getServer() Method being wrapped.
      */
     public static Server getServer() {
